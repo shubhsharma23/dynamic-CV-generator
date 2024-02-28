@@ -1,0 +1,83 @@
+.homepage {
+  font-family: 'Arial', sans-serif;
+  color: #333;
+  padding: 20px;
+}
+
+.cv-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-column,
+.right-column {
+  width: 48%;
+}
+
+section {
+  margin-bottom: 30px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.personal-info {
+  background-color: #f9f9f9;
+}
+
+.education {
+  background-color: #e6f2ff;
+}
+
+.summary {
+  background-color: #f0f0f0;
+}
+
+.work-experience {
+  background-color: #d9ead3;
+}
+
+.projects {
+  background-color: #f5c6cb;
+}
+
+.certifications {
+  background-color: #d6d8db;
+}
+
+.skills {
+  background-color: #cfe2f3;
+}
+
+h2 {
+  margin-top: 20px;
+  font-size: 1.5em;
+  color: #555;
+}
+
+p {
+  margin: 10px 0;
+}
+
+ul {
+  padding: 0;
+  margin-left: 20px;
+}
+
+li {
+  margin: 5px 0;
+  list-style: none;
+}
+
+li::before {
+  content: "\2022"; 
+  color: #007bff;
+  font-size: 12px;
+  margin-right: 8px;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
